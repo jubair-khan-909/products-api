@@ -16,4 +16,9 @@ public class HelloController {
     public String status(){
         return "API is running";
     }
+
+    @GetMapping("/goodbye")
+    public String goodbye(){
+        return "Goodbye from Spring Boot!";
+    }
 }
